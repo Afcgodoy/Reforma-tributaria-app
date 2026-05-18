@@ -3,10 +3,8 @@ from openai import OpenAI
 import time
 
 
-API_KEY = "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"
-
 # Inicialize o cliente OpenAI com sua chave de API
-client = OpenAI(api_key=API_KEY)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
 # Título do app

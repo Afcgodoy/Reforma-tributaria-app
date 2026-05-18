@@ -1,6 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 import time
+import os
 
 
 # Inicialize o cliente OpenAI com sua chave de API
